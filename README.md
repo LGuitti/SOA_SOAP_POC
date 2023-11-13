@@ -1,18 +1,27 @@
 # SOA_SOAP_POC
 
-Instalação do Apache Maven
+Este repositório é uma PoC (Proof of Concept) criado pelos alunos Lucas Guitti Bonando e João Pedro Contrera Assis. Para o correto funcionamento, é necessário ter o Apache Maven instalado.
+
+## Instalação do Apache Maven
+
 Este guia fornece instruções passo a passo para a instalação do Apache Maven no seu sistema.
 
-Requisitos
+### Requisitos
+
 Antes de prosseguir, verifique se o seu sistema atende aos seguintes requisitos:
 
-Java Development Kit (JDK) instalado e configurado. O Maven requer o JDK para funcionar.
-Conexão com a internet para baixar o Maven.
-Passos de Instalação
-Passo 1: Verificar se o Java está instalado
+- Java Development Kit (JDK) instalado e configurado. O Maven requer o JDK para funcionar.
+- Conexão com a internet para baixar o Maven.
+
+### Passos de Instalação
+
+#### Passo 1: Verificar se o Java está instalado
+
 Abra um terminal ou prompt de comando e digite:
 
+```bash
 java -version
+
 Certifique-se de que o comando exibe a versão do Java instalada. Caso contrário, instale o JDK antes de prosseguir.
 
 Passo 2: Baixar o Apache Maven
