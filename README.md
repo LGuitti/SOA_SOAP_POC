@@ -21,6 +21,7 @@ Abra um terminal ou prompt de comando e digite:
 
 ```bash
 java -version
+```
 
 Certifique-se de que o comando exibe a versão do Java instalada. Caso contrário, instale o JDK antes de prosseguir.
 
@@ -31,6 +32,9 @@ Acesse o [site oficial do Apache Maven](link do site) e baixe a versão mais rec
 #### Passo 3: Extrair o Maven
 
 Após o download, extraia o arquivo compactado do Maven para o diretório desejado em seu sistema. Por exemplo:
+```bash
+tar xzvf apache-maven-3.x.x-bin.tar.gz -C /caminho/do/diretorio
+```
 
 #### Passo 4: Configurar as Variáveis de Ambiente
 Windows
@@ -43,14 +47,18 @@ Encontre a variável Path, selecione-a e clique em "Editar". Adicione %M2_HOME%\
 Linux ou macOS
 Edite o arquivo .bashrc, .bash_profile ou .zshrc no seu diretório home e adicione as seguintes linhas:
 
-
+```bash
 export M2_HOME=/caminho/do/diretorio/apache-maven-3.x.x
 export PATH=$M2_HOME/bin:$PATH
+```
+
 Substitua "/caminho/do/diretorio/apache-maven-3.x.x" pelo caminho real onde o Maven foi extraído.
 
 #### Passo 5: Verificar a Instalação
 Abra um novo terminal ou prompt de comando e digite:
 
+```bash
 mvn -v
+```
 Isso deve exibir a versão do Maven instalada, confirmando que a instalação foi bem-sucedida.
 
