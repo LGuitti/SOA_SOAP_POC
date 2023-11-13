@@ -24,14 +24,15 @@ java -version
 
 Certifique-se de que o comando exibe a versão do Java instalada. Caso contrário, instale o JDK antes de prosseguir.
 
-Passo 2: Baixar o Apache Maven
-Acesse o site oficial do Apache Maven e baixe a versão mais recente do Maven. Ou, se preferir, use um gerenciador de pacotes do seu sistema operacional.
+#### Passo 2: Baixar o Apache Maven
 
-Passo 3: Extrair o Maven
+Acesse o [site oficial do Apache Maven](link do site) e baixe a versão mais recente do Maven. Ou, se preferir, use um gerenciador de pacotes do seu sistema operacional.
+
+#### Passo 3: Extrair o Maven
+
 Após o download, extraia o arquivo compactado do Maven para o diretório desejado em seu sistema. Por exemplo:
 
-
-Passo 4: Configurar as Variáveis de Ambiente
+#### Passo 4: Configurar as Variáveis de Ambiente
 Windows
 Vá para Configurações do Sistema ou Painel de Controle.
 Clique em "Sistema" e, em seguida, em "Configurações avançadas do sistema".
@@ -47,7 +48,7 @@ export M2_HOME=/caminho/do/diretorio/apache-maven-3.x.x
 export PATH=$M2_HOME/bin:$PATH
 Substitua "/caminho/do/diretorio/apache-maven-3.x.x" pelo caminho real onde o Maven foi extraído.
 
-Passo 5: Verificar a Instalação
+#### Passo 5: Verificar a Instalação
 Abra um novo terminal ou prompt de comando e digite:
 
 mvn -v
